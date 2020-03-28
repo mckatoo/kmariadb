@@ -1,0 +1,8 @@
+secretGenerator:
+- name: mariadb-pass
+  literals:
+  - password='xeon@accept34'
+resources:
+- mariadb-pv.yml
+- mariadb-deployment.yml
+- adminer-deployment.yml
